@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
+"""Module providingFunction local process."""
 import subprocess
+"""Module providingFunction unknown."""
 import re
 
 def get_drive_info(device):
