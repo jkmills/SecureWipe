@@ -20,11 +20,11 @@ cd SecureWipe
 
 2. Ensure the script is executable:
 ```bash
-chmod +x dod_wipe_extended.py
+chmod +x main.py
 ```
 
 3. Execute the script with root privileges:
 ```bash
-sudo ./dod_wipe_extended.py
+sudo ./main.py
 ```
 The script will perform a DOD-style wipe (3 passes) on all the SSD drives in the server. It will first list all available disk devices and then perform the wipe on each device, capturing the required information.
