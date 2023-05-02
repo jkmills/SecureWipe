@@ -24,7 +24,7 @@ chmod +x dod_wipe_extended.py
 ```
 
 3. Execute the script with root privileges:
-4. ```bash
-5. sudo ./dod_wipe_extended.py
+```bash
+sudo ./dod_wipe_extended.py
 ```
 The script will perform a DOD-style wipe (3 passes) on all the SSD drives in the server. It will first list all available disk devices and then perform the wipe on each device, capturing the required information.
