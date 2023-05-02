@@ -9,3 +9,9 @@ This project contains a Python script to perform a DOD (Department of Defense) s
 
   ```bash
   sudo apt-get install smartmontools
+  
+ 
+ ```Usage
+git clone https://github.com/yourusername/ssd-dod-wipe.git
+cd ssd-dod-wipe
+
